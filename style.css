@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #38003c, #9f57d4);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 0 15px #00000055;
+}
+
+input, select, button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background-color: gold;
+  color: #3c006e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
